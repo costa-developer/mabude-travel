@@ -24,7 +24,7 @@ function CalenderEvents() {
   }, []);
 
   return (
-    <section className="relative bg-secondary py-20 md:py-40">
+    <section className="relative bg-[#B6A28F] py-20 md:py-40">
       <div className="container">
         <h2 className="text-3xl md:text-4xl text-white mb-4">
           {upcomingEventsData?.heading}

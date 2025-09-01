@@ -31,8 +31,16 @@ function HeroSection() {
               <div className="h-px bg-white/50 flex-1"></div>
             </div>
 
+            <div className="flex items-center w-full max-w-6xl mt-2">
+              <div className="h-px bg-white/50 flex-1"></div>
+              <h2 className="mx-6 text-xl sm:text-2xl lg:text-3xl font-serif text-white">
+                Explore the Mother City's best attractions
+              </h2>
+              <div className="h-px bg-white/50 flex-1"></div>
+            </div>
+
             <p className="mt-6 max-w-3xl text-white text-center text-lg sm:text-xl">
-              Explore the Mother City's best with our expert-led Cape Town tours. Discover iconic landmarks like Table Mountain and the vibrant Bo-Kaap. Book your unforgettable South African adventure today.
+              Discover Table Mountain, Bo-Kaap, and more. Book your South African adventure today.
             </p>
           </div>
         </section>

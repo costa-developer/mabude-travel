@@ -67,70 +67,71 @@ const DummyContent: React.FC<DummyContentProps> = ({ title, description }) => {
   );
 };
 
+
 const data = [
   {
-    category: "Table Mountain",
-    title: "Hike or Cable Car Adventure",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop",
-    content: (
-      <DummyContent
-        title="Iconic Views"
-        description="Take in breathtaking panoramic views of Cape Town from the top of Table Mountain, whether you hike up or ride the cable car."
-      />
-    ),
-  },
-  {
-    category: "Cape Peninsula",
-    title: "Cape Point & Penguins",
-    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop",
-    content: (
-      <DummyContent
-        title="Cape of Good Hope"
-        description="Explore the dramatic cliffs of Cape Point, visit Boulders Beach to meet the African penguins, and enjoy one of the world’s most scenic drives."
-      />
-    ),
-  },
-  {
-    category: "Winelands",
-    title: "Stellenbosch & Franschhoek",
-    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop",
-    content: (
-      <DummyContent
-        title="Wine & Dine"
-        description="Sip award-winning wines, indulge in gourmet food pairings, and wander through picturesque vineyards in Cape Town’s world-famous Winelands."
-      />
-    ),
-  },
-  {
-    category: "Robben Island",
-    title: "Heritage & History Tour",
-    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop",
-    content: (
-      <DummyContent
-        title="Nelson Mandela’s Legacy"
-        description="Take a ferry to Robben Island, a UNESCO World Heritage Site, and learn about South Africa’s history and Nelson Mandela’s time in prison."
-      />
-    ),
-  },
-  {
-    category: "Beaches",
-    title: "Clifton & Camps Bay",
+    category: "Lead Generation",
+    title: "Convert Visitors into Qualified Leads",
     src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=3556&auto=format&fit=crop",
     content: (
       <DummyContent
-        title="Relax & Unwind"
-        description="Spend the day soaking up the sun on Cape Town’s world-class beaches, with soft white sand and turquoise waters framed by the Twelve Apostles mountains."
+        title="24/7 Lead Capture"
+        description="Engage website visitors instantly, qualify leads automatically, and route them directly to your sales team – even outside business hours."
       />
     ),
   },
   {
-    category: "Adventure",
-    title: "Shark Cage Diving & More",
+    category: "Customer Support",
+    title: "Provide Instant Customer Support",
+    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop",
+    content: (
+      <DummyContent
+        title="Faster Resolutions"
+        description="Answer FAQs, resolve issues, and escalate complex queries to your team seamlessly – improving satisfaction while reducing support costs."
+      />
+    ),
+  },
+  {
+    category: "E-Commerce",
+    title: "Boost Online Sales",
+    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop",
+    content: (
+      <DummyContent
+        title="Personalized Shopping"
+        description="Recommend products, guide purchases, and upsell with personalized conversations that drive higher conversions."
+      />
+    ),
+  },
+  {
+    category: "Appointments",
+    title: "Simplify Appointment Bookings",
+    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop",
+    content: (
+      <DummyContent
+        title="Automated Scheduling"
+        description="Let customers schedule calls, consultations, or demos directly through the chatbot – synced with your calendar in real time."
+      />
+    ),
+  },
+  {
+    category: "Analytics",
+    title: "Gain Actionable Insights",
+    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop",
+    content: (
+      <DummyContent
+        title="Smarter Sales Decisions"
+        description="Track conversations, measure engagement, and analyze customer intent to refine your sales and marketing strategies."
+      />
+    ),
+  },
+  {
+    category: "Multi-Channel",
+    title: "Engage Customers Anywhere",
     src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop",
     content: (
       <DummyContent
-        title="Thrill Seekers Welcome"
-        description="Dive with great white sharks, paraglide over the city, or surf the Atlantic waves – Cape Town is an adventure lover’s paradise."
+        title="Omnichannel Experience"
+        description="Connect with customers on your website, WhatsApp, Messenger, and more – all through one AI-powered chatbot."
       />
     ),
   },
