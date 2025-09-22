@@ -7,7 +7,7 @@ function HeroSection() {
     <ParallaxProvider>
       <Parallax speed={-20}>
         <section className="relative w-full h-screen flex items-center justify-center bg-black overflow-hidden">
-          {/* Sacred or church-themed video */}
+          {/* Background video */}
           <video
             className="absolute top-0 left-0 w-full h-full object-cover"
             loop
@@ -26,13 +26,16 @@ function HeroSection() {
             <div className="flex items-center w-full max-w-6xl mb-4">
               <div className="h-px bg-white/50 flex-1"></div>
               <h1 className="mx-6 text-5xl sm:text-6xl lg:text-7xl font-serif text-white leading-tight">
-                Cape Town Tours
+                Zimbabwe &amp; India Tours
               </h1>
               <div className="h-px bg-white/50 flex-1"></div>
             </div>
 
             <p className="mt-6 max-w-3xl text-white text-center text-lg sm:text-xl">
-              Explore the Mother City's best with our expert-led Cape Town tours. Discover iconic landmarks like Table Mountain and the vibrant Bo-Kaap. Book your unforgettable South African adventure today.
+              Discover the wonders of Zimbabwe and India with Mabude Travel.
+              From Victoria Falls and Hwange National Park to the Taj Mahal and
+              vibrant Rajasthan, our expert-led tours immerse you in culture,
+              history, and unforgettable landscapes. Start your journey today.
             </p>
           </div>
         </section>

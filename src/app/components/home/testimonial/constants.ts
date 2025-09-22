@@ -9,22 +9,22 @@ export type Props = {
 export const testimonials: Props[] = [
   {
     testimony:
-      "Our Cape Peninsula tour was simply breathtaking! From Cape Point to Boulders Beach penguins, every moment was unforgettable.",
+      "Our Victoria Falls tour in Zimbabwe was absolutely mesmerizing! The scenery and wildlife were unforgettable.",
     person: 'Sarah Johnson',
     avatar: '/images/robert_fox.png',
   },
   {
     testimony:
-      "The Winelands tour was the highlight of our trip. The wine tastings, gourmet food, and stunning landscapes were beyond expectations.",
+      "Exploring India’s Golden Triangle was a dream come true. The culture, food, and historical sites exceeded all expectations.",
     person: 'James Smith',
     avatar: '/images/robert_fox.png',
   },
   {
     testimony:
-      "Exploring Table Mountain and Robben Island gave us the perfect mix of adventure and history. Highly recommend these tours!",
+      "Safari adventures in Hwange National Park combined with India’s vibrant cities gave us the perfect mix of nature and culture. Highly recommend Mabude Travel!",
     person: 'Olivia Brown',
     avatar: '/images/robert_fox.png',
   },
 ];
 
-export const desktopHeaderPhrase = ['Discover', 'Cape Town Tours & Experiences'];
+export const desktopHeaderPhrase = ['Discover', 'Zimbabwe & India Tours & Experiences'];

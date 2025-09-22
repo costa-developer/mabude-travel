@@ -9,7 +9,7 @@ import AllToursData from "./components/home/tours";
 import AboutusFullimg from "./components/about/aboutus-fullimg";
 
 export const metadata: Metadata = {
-    title: "Digitalizeiq",
+    title: "Mabude Travels",
 };
 
 export default function Home() {

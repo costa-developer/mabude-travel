@@ -40,17 +40,17 @@ const MenuData = [
 ];
 
 const footerData = {
-    name: "Wilderness Cape Town Tours",
-    tagline: "Experience the Beauty, Culture, and Adventure of Cape Town",
+    name: "Mabude Travel",
+    tagline: "Discover the Wonders of Zimbabwe & India",
     info: [
         {
             icon: "/images/footer/email-arrow.svg",
-            link: "info@wildernesscapetown.co.za",
-            href: "mailto:info@wildernesscapetown.co.za"
+            link: "info@mabudetravel.com",
+            href: "mailto:info@mabudetravel.com"
         },
         {
             icon: "/images/footer/Location.svg",
-            link: "Cape Town, South Africa",
+            link: "Zimbabwe & India",
             href: "https://maps.app.goo.gl/YourLocationLink"
         }
     ],
@@ -63,10 +63,10 @@ const footerData = {
         { name: "Privacy Policy", href: "/privacy-policy" },
     ],
     socialLinks: [
-        { name: "Facebook", href: "https://www.facebook.com/WildernessCapeTownTours" },
-        { name: "Youtube", href: "https://www.youtube.com/@WildernessCapeTownTours" },
+        { name: "Facebook", href: "https://www.facebook.com/MabudeTravel" },
+        { name: "Youtube", href: "https://www.youtube.com/@MabudeTravel" },
     ],
-    copyright: "© Safari Private Tours Cape Town Tours 2025"
+    copyright: "© Mabude Travel 2025"
 };
 
 export const GET = async () => {

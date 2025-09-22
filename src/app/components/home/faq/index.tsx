@@ -27,7 +27,7 @@ function Faq() {
         <div className="text-center flex flex-col gap-3 md:gap-5 px-2">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">Frequently Asked Questions</h2>
           <p className="text-secondary/70 dark:text-white/70 text-sm sm:text-base md:text-lg max-w-xl md:max-w-2xl mx-auto">
-            Have questions about our Cape Town tours? Learn about tour durations, what to pack, sightseeing options, safety guidelines, transportation, and how to make the most of your adventure in and around Cape Town.
+            Have questions about our Zimbabwe and India tours? Learn about tour durations, cultural experiences, safari adventures, sightseeing highlights, safety guidelines, transportation, and how to make the most of your journey in these amazing destinations.
           </p>
         </div>
 

@@ -22,20 +22,26 @@ function AllToursData() {
 
   // Memoize cards to avoid unnecessary re-renders
   const cards = useMemo(
-    () =>
-      data.map((card) => <Card key={card.src} card={card} />),
+    () => data.map((card) => <Card key={card.src} card={card} />),
     []
   );
 
   return (
-    <section className="relative bg-secondary py-20 md:py-40">
-      <div className="container max-w-lg">
-        <h2 className="text-3xl md:text-4xl text-white mb-4">
-          {toursData?.heading}
-        </h2>
-        <p className="text-white/70 mb-10">{toursData?.description}</p>
+    <section className="relative bg-secondary py-20 md:py-32 overflow-hidden">
+      <div className="container max-w-7xl mx-auto px-4">
+        {/* Heading & description */}
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            {toursData?.heading}
+          </h2>
+          <p className="text-white/70 mb-10">{toursData?.description}</p>
+        </div>
+
+        {/* Carousel inside the container */}
+        <div className="mt-10">
+          <Carousel items={cards} />
+        </div>
       </div>
-      <Carousel items={cards} />
     </section>
   );
 }
@@ -51,7 +57,9 @@ const DummyContent: React.FC<DummyContentProps> = ({ title, description }) => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">{title}</span>{" "}
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          {title}
+        </span>{" "}
         {description}
       </p>
       <div className="relative w-full md:w-1/2 h-[300px] md:h-[500px] mx-auto">
@@ -69,81 +77,82 @@ const DummyContent: React.FC<DummyContentProps> = ({ title, description }) => {
 
 const data = [
   {
-    category: "Table Mountain",
-    title: "Hike or Cable Car Adventure",
-    price: "R350",
+    category: "Victoria Falls",
+    title: "Falls & Safari Adventure",
+    price: "$350",
     period: "2-3 hours",
     src: "/images/tours/a.jpg",
     content: (
       <DummyContent
-        title="Iconic Views"
-        description="Take in breathtaking panoramic views of Cape Town from the top of Table Mountain, whether you hike up or ride the cable car."
+        title="Breathtaking Views"
+        description="Marvel at the stunning Victoria Falls and explore the surrounding landscapes. Safari drives offer a chance to spot wildlife up close."
       />
     ),
   },
   {
-    category: "Cape Peninsula",
-    title: "Cape Point & Penguins",
-    price: "R350",
+    category: "Hwange National Park",
+    title: "Safari & Wildlife",
+    price: "$350",
     period: "Half Day",
     src: "/images/tours/b.jpg",
     content: (
       <DummyContent
-        title="Cape of Good Hope"
-        description="Explore the dramatic cliffs of Cape Point, visit Boulders Beach to meet the African penguins, and enjoy one of the world’s most scenic drives."
+        title="Wildlife Encounters"
+        description="Experience one of Africa’s top wildlife reserves. Spot elephants, lions, and rhinos on guided safari tours."
       />
     ),
   },
   {
-    category: "Winelands",
-    title: "Stellenbosch & Franschhoek",
-    price: "R350",
+    category: "Rajasthan",
+    title: "Palaces & Culture",
+    price: "$350",
     period: "Full Day",
     src: "/images/tours/c.jpg",
     content: (
       <DummyContent
-        title="Wine & Dine"
-        description="Sip award-winning wines, indulge in gourmet food pairings, and wander through picturesque vineyards in Cape Town’s world-famous Winelands."
+        title="Royal Heritage"
+        description="Explore the majestic palaces, forts, and vibrant streets of Rajasthan. Immerse yourself in India’s rich cultural heritage."
       />
     ),
   },
   {
-    category: "Robben Island",
-    title: "Heritage & History Tour",
-    price: "R350",
+    category: "Taj Mahal",
+    title: "Iconic Landmark Tour",
+    price: "$350",
     period: "3-4 hours",
-    src: "/images/tours/a.jpg",
+    src: "/images/tours/d.jpg",
     content: (
       <DummyContent
-        title="Nelson Mandela’s Legacy"
-        description="Take a ferry to Robben Island, a UNESCO World Heritage Site, and learn about South Africa’s history and Nelson Mandela’s time in prison."
+        title="World Wonder"
+        description="Visit the Taj Mahal, one of the seven wonders of the world. Learn its history and admire the stunning architecture."
       />
     ),
   },
   {
     category: "Beaches",
-    title: "Clifton & Camps Bay",
-    price: "R350",
+    title: "Goa & Coastal Adventures",
+    price: "$350",
     period: "Half Day",
-    src: "/images/tours/b.jpg",
+    src: "/images/tours/e.jpg",
     content: (
       <DummyContent
         title="Relax & Unwind"
-        description="Spend the day soaking up the sun on Cape Town’s world-class beaches, with soft white sand and turquoise waters framed by the Twelve Apostles mountains."
+        description="Soak up the sun on Goa’s golden beaches. Enjoy water sports, local cuisine, and the vibrant coastal atmosphere."
       />
     ),
   },
   {
     category: "Adventure",
-    title: "Shark Cage Diving & More",
-    price: "R350",
+    title: "Hiking & Exploration",
+    price: "$350",
     period: "Full Day",
-    src: "/images/tours/c.jpg",
+    src: "/images/tours/f.jpg",
     content: (
       <DummyContent
         title="Thrill Seekers Welcome"
-        description="Dive with great white sharks, paraglide over the city, or surf the Atlantic waves – Cape Town is an adventure lover’s paradise."
+        description="From mountain treks in Zimbabwe to cultural exploration in India, experience unforgettable adventures with Mabude Travel."
       />
     ),
   },
 ];
+
