@@ -120,7 +120,7 @@ const Experiences = () => {
       </div>
 
       {/* Explore CTA */}
-      <div className="flex items-end justify-end mt-10 px-6 lg:-mt-20 lg:mr-6">
+      <div className="flex items-end justify-end mt-10 px-6 lg:-mt-40 lg:mr-6">
         <div className="bg-[#B6A28F] p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-3xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="text-white capitalize text-2xl md:text-3xl 2xl:text-6xl">
             <strong>Explore Zimbabwe & India</strong> and Experience Their Wonders
@@ -131,8 +131,8 @@ const Experiences = () => {
           <Image
             src="/quote.svg"
             alt="experiences-quote"
-            width={100}
-            height={150}
+            width={186}
+            height={219}
             className="camp-quote"
           />
         </div>

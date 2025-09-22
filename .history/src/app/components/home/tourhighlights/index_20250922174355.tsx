@@ -131,8 +131,8 @@ const Experiences = () => {
           <Image
             src="/quote.svg"
             alt="experiences-quote"
-            width={100}
-            height={150}
+            width={186}
+            height={219}
             className="camp-quote"
           />
         </div>

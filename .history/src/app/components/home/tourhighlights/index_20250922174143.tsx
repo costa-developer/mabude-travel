@@ -85,42 +85,24 @@ const Experiences = () => {
 
       {/* Scrollable experiences */}
       <div className="hide-scrollbar flex gap-8 overflow-x-auto px-6 lg:px-20 will-change-transform">
-      <ExperienceCard
+        <ExperienceCard
           backgroundImage="/images/home/experiences/a.jpg"
-          title="Victoria Falls Adventure"
-          subtitle="Marvel at the world’s largest waterfall"
+          title="Zimbabwe"
+          subtitle="Experience the diverse culture, wildlife, and landscapes"
           participants="20+ Adventurers"
           priority
         />
-        <ExperienceCard
-          backgroundImage="/images/home/experiences/b.jpg"
-          title="Hwange Safari"
-          subtitle="Encounter Africa’s majestic wildlife"
-          participants="15+ Explorers"
-        />
+
         <ExperienceCard
           backgroundImage="/images/home/experiences/c.jpg"
-          title="Rajasthan Palaces"
-          subtitle="Discover India’s royal heritage"
+          title="India"
+          subtitle="Explore rich heritage, vibrant culture, and natural beauty"
           participants="12+ Travelers"
         />
-        <ExperienceCard
-          backgroundImage="/images/home/experiences/d.jpg"
-          title="Taj Mahal Tour"
-          subtitle="Visit the iconic world wonder"
-          participants="18+ Visitors"
-        />
-        <ExperienceCard
-          backgroundImage="/images/home/experiences/e.jpg"
-          title="Goa Beach Escape"
-          subtitle="Relax on golden Indian beaches"
-          participants="10+ Guests"
-        />
-        
       </div>
 
       {/* Explore CTA */}
-      <div className="flex items-end justify-end mt-10 px-6 lg:-mt-20 lg:mr-6">
+      <div className="flex items-end justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-[#B6A28F] p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-3xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="text-white capitalize text-2xl md:text-3xl 2xl:text-6xl">
             <strong>Explore Zimbabwe & India</strong> and Experience Their Wonders
@@ -131,8 +113,8 @@ const Experiences = () => {
           <Image
             src="/quote.svg"
             alt="experiences-quote"
-            width={100}
-            height={150}
+            width={186}
+            height={219}
             className="camp-quote"
           />
         </div>
