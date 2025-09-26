@@ -21,9 +21,9 @@ export default function Home() {
       <StatsFacts/>
       <TopDestinationOne />
       {/* <CustomeJourneys /> */}
+      <AboutusFullimg />
      {/* <Experiences /> */}
       <Faq/>
-       <AboutusFullimg />
       <Testimonialss />
     </>
   );

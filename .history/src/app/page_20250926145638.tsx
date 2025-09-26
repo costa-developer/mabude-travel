@@ -20,10 +20,10 @@ export default function Home() {
       {/* <AllToursData /> */}
       <StatsFacts/>
       <TopDestinationOne />
-      {/* <CustomeJourneys /> */}
+      <CustomeJourneys />
+      <AboutusFullimg />
      {/* <Experiences /> */}
       <Faq/>
-       <AboutusFullimg />
       <Testimonialss />
     </>
   );

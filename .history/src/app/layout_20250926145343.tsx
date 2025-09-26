@@ -1,13 +1,13 @@
 "use client";
 import { Manrope } from "next/font/google";
 import "./globals.css";
-import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
 import ScrollToTop from "./components/scroll-to-top";
+import 'tiny-slider/dist/tiny-slider.css';
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -31,20 +31,18 @@ export default function RootLayout({
     });
   }, [pathname]);
 
-  const excludedRoutes = ["/signin", "/signup", "/forgot-password","/documentation"];
+  const excludedRoutes = ["/documentation"];
   const hideLayout = excludedRoutes.includes(pathname) || is404;
 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={manrope.className}>
-        <SessionProvider>
-          <ThemeProvider attribute="class" enableSystem={false} defaultTheme="light">
-            {!hideLayout && <Header />}
-            {children}
-            {!hideLayout && <Footer />}
-            <ScrollToTop />
-          </ThemeProvider>
-        </SessionProvider>
+        <ThemeProvider attribute="class" enableSystem={false} defaultTheme="light">
+          <Header />
+          {children}
+          {!hideLayout && <Footer />}
+          <ScrollToTop />
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -23,7 +23,6 @@ export default function Home() {
       {/* <CustomeJourneys /> */}
      {/* <Experiences /> */}
       <Faq/>
-       <AboutusFullimg />
       <Testimonialss />
     </>
   );
