@@ -21,7 +21,7 @@ export default function Page() {
       <AboutusDetail />
       <AboutusStats />
       <AboutusFullimg />
-      <Team />
+      <Team teamdataNumber="01" />
     </main>
   );
 };
