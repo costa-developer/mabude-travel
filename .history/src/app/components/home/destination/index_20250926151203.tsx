@@ -1,10 +1,10 @@
 "use client";
 
-import * as React from "react";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { topDestination } from "./data";
 import Image from "next/image";
+import * as React from "react";
 
 
 interface Destination {
